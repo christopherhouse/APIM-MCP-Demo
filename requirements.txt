@@ -2,7 +2,10 @@
 # Core dependencies that should be available or easily installable
 requests>=2.25.0
 
+# Semantic Kernel and MCP dependencies (required for AI orchestration)
+semantic-kernel>=1.32.0  # For advanced AI orchestration with MCP support
+mcp>=1.9.0               # Model Context Protocol implementation
+
 # Optional advanced dependencies (install when network permits)
-# semantic-kernel>=1.0.0  # For advanced AI orchestration
-# httpx>=0.25.0           # For better async HTTP support
+# httpx>=0.25.0           # For better async HTTP support  
 # rich>=13.0.0            # For enhanced console formatting
