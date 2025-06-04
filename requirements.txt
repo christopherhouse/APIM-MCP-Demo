@@ -1,0 +1,8 @@
+# Basic dependencies for the Pet Store MCP Demo
+# Core dependencies that should be available or easily installable
+requests>=2.25.0
+
+# Optional advanced dependencies (install when network permits)
+# semantic-kernel>=1.0.0  # For advanced AI orchestration
+# httpx>=0.25.0           # For better async HTTP support
+# rich>=13.0.0            # For enhanced console formatting
